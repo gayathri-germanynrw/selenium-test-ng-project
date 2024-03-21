@@ -42,6 +42,9 @@ public class TestNG_Intro {
     @Test (priority =1)
     public void test2(){
         System.out.println("Test 2 is running ----" );
+        String actual="white";
+        String expected="Green";
+        Assert.assertTrue(actual.equals(expected));
     }
 
 }
