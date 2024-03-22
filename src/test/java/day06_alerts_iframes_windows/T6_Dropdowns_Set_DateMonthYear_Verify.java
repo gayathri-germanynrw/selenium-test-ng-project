@@ -2,18 +2,16 @@ package day06_alerts_iframes_windows;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class Dropdowns_T6_T7_T8 {
+public class T6_Dropdowns_Set_DateMonthYear_Verify {
     //    TC #6: Selecting date on dropdown and verifying
 //1. Open Chrome browser
     WebDriver driver;
