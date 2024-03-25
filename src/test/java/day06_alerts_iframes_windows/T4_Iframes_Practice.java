@@ -28,7 +28,7 @@ public class T4_Iframes_Practice {
         //4. Assert: “Your content goes here.” Text is displayed.
         // We have to switch to iframe to be able to locate web element in there
 
-        // Option#1 : switch Frame using "id" attribute value
+        // Option#1 : switch Frame using "id" attribute value / nameValue attribute
        // driver.switchTo().frame("mce_0_ifr");
         // option#2 : switch Frame using "index" number
         driver.switchTo().frame(0);
