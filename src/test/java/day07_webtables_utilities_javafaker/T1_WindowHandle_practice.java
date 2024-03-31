@@ -2,7 +2,6 @@ package day07_webtables_utilities_javafaker;
 
 import base.TestBase;
 import org.openqa.selenium.JavascriptExecutor;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import utilities.*;
 import java.util.Set;
