@@ -8,7 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import utilities.ConfigurationReader;
 
-public class T4_GoogleSearch extends TestBase {
+public class T4_use_config_reader extends TestBase {
     //1- Open a chrome browser
     //2- Go to: https://google.com
 
