@@ -52,6 +52,10 @@ public class BrowserUtils {
         Assert.assertTrue(driver.getTitle().contains(expectedInTitle));
     }
 
+    public static void verify_ActualStr_ExpectedStr_Same(String actualString,String expectedStr){
+        Assert.assertEquals(actualString,expectedStr);
+    }
+
 
 
 
