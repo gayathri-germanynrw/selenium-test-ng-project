@@ -7,6 +7,7 @@ import utilities.Driver;
 
 public class DynamicLoad7Page {
     public DynamicLoad7Page(){
+
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
