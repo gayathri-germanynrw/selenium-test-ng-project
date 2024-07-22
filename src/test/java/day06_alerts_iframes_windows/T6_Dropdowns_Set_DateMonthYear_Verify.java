@@ -65,7 +65,7 @@ public class T6_Dropdowns_Set_DateMonthYear_Verify {
 
     @AfterMethod
     public void tearDown() {
-        driver.quit();
+        //driver.quit();
     }
 }
 

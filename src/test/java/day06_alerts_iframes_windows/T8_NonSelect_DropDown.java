@@ -41,7 +41,7 @@ public class T8_NonSelect_DropDown {
         //5. Verify title is “Facebook - Log In or Sign Up”
         String acualTitle = driver.getTitle();
         System.out.println("acualTitle--->" + acualTitle);
-        String expectedTitle = "Facebook - Log In or Sign Up";
+        String expectedTitle = "Facebook - log in or sign up";
 
         Assert.assertEquals(acualTitle, expectedTitle, "Titles are not equal !");
 
@@ -49,7 +49,8 @@ public class T8_NonSelect_DropDown {
 
     @AfterMethod
     public void tearDown() {
-        driver.quit();
+
+        //driver.quit();
     }
 
 }

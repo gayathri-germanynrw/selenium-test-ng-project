@@ -21,7 +21,7 @@ public class T4_T5_Scroll_Practice {
         // To be able to hover on images, we need to create object,
         //and pass 'driver' in the constructor
         Actions actions = new Actions(Driver.getDriver());
-        actions.moveToElement(cydeoLink).perform();
+        actions.moveToElement(cydeoLink);
 
         // Task 5 --> Page Up
         actions.sendKeys(Keys.PAGE_UP, Keys.PAGE_UP).perform();

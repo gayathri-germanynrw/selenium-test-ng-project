@@ -50,6 +50,15 @@ public class T1_T2_T3_Alert_Information {
         String expected_Msg_Alert = "You successfully clicked an alert";
         Assert.assertEquals(actual_Msg_Alert, expected_Msg_Alert, " Message is same. Test PASSED!");
     }
+    /*
+TC #1: Information alert practice
+1. Open browser
+2. Go to website: http://practice.cydeo.com/javascript_alerts
+3. Click to “Click for JS Alert” button
+4. Click to OK button from the alert
+5. Verify “You successfully clicked an alert” text is displayed.
+ */
+
 
 
     @Test(priority = 1)
@@ -83,7 +92,7 @@ public class T1_T2_T3_Alert_Information {
      */
 
     @Test
-    public void info_Alert() throws InterruptedException {
+    public void Promt_Alert_Js() throws InterruptedException {
         // 3. Click to “Click for JS Prompt” button
         WebElement info_alert = driver.findElement(By.xpath("//button[.='Click for JS Prompt']"));
         info_alert.click();
@@ -117,16 +126,9 @@ public class T1_T2_T3_Alert_Information {
 
     @AfterMethod
     public void tearDown() {
-        driver.quit();
+
+       // driver.quit();
     }
 
 }
 
-/*
-TC #1: Information alert practice
-1. Open browser
-2. Go to website: http://practice.cydeo.com/javascript_alerts
-3. Click to “Click for JS Alert” button
-4. Click to OK button from the alert
-5. Verify “You successfully clicked an alert” text is displayed.
- */
