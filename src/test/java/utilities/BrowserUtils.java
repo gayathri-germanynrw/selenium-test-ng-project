@@ -119,3 +119,20 @@ Method #n2 ifo:
 • Arg3: String password
 
  */
+
+
+/*
+@Test
+    public void hidden_element_shadow_root_test(){
+
+        Driver.getDriver().get("https://practice.expandtesting.com/shadowdom");
+
+     //   Driver.getDriver().findElement(By.xpath("//button[.='This button is inside a Shadow DOM.']")).click();
+
+        WebElement shadowHost = Driver.getDriver().findElement(By.id("shadow-host"));
+        SearchContext shadowRoot = shadowHost.getShadowRoot();
+        shadowRoot.findElement(By.cssSelector("#my-btn")).click();
+
+
+    }
+ */
